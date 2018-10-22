@@ -9,23 +9,23 @@ Kubernetes es un sistema open-source (PaaS) para despliegues automáticos, escal
 
 - Creación de servicios y balanceo de carga
 
-No es necesario modificar su aplicación para utilizar un mecanismo de creación de servicio desconocido. Kubernetes les da a los contenedores sus propias direcciones IP y un solo nombre DNS para un conjunto de contenedores, y pueden equilibrar la carga entre ellos. Puedes crear micro-servicios y crear replicas de este, Kubernetes hará un balanceo de carga entre las replicas y solo se necesitara un nombre DNS para acceder al servicio.
+	: No es necesario modificar su aplicación para utilizar un mecanismo de creación de servicio desconocido. Kubernetes les da a los contenedores sus propias direcciones IP y un solo nombre DNS para un conjunto de contenedores, y pueden equilibrar la carga entre ellos. Puedes crear micro-servicios y crear replicas de este, Kubernetes hará un balanceo de carga entre las replicas y solo se necesitara un nombre DNS para acceder al servicio.
 
 - Empaquetado automático
 
-Kubernete coloca automáticamente los contenedores en los servidores según sus requisitos de recursos y otras restricciones, sin sacrificar la disponibilidad. Combina cargas de trabajo críticas y de mejor esfuerzo para aumentar la utilización y ahorrar aún más recursos.
+	: Kubernetes coloca automáticamente los contenedores en los servidores según sus requisitos de recursos y otras restricciones, sin sacrificar la disponibilidad. Combina cargas de trabajo críticas y de mejor esfuerzo para aumentar la utilización y ahorrar aún más recursos.
 
 - Orquestación de almacenamiento
 
-Monte automáticamente el sistema de almacenamiento de su elección, ya sea de almacenamiento local, un proveedor de nube pública como GCP o AWS, o un sistema de almacenamiento en red como NFS, iSCSI, Gluster, Ceph, Cinder o Flocker. 
+	: Monte automáticamente el sistema de almacenamiento de su elección, ya sea de almacenamiento local, un proveedor de nube pública como GCP o AWS, o un sistema de almacenamiento en red como NFS, iSCSI, Gluster, Ceph, Cinder o Flocker. 
 
 - Autoreparación
 
-Kubernete reinicia los contenedores que fallan, reemplaza y reprograma los contenedores cuando los nodos mueren, elimina los contenedores que no responden a su control de salud definido por el usuario y no los anuncia a los clientes hasta que estén listos para servir.
+	: Kubernete reinicia los contenedores que fallan, reemplaza y reprograma los contenedores cuando los nodos mueren, elimina los contenedores que no responden a su control de salud definido por el usuario y no los anuncia a los clientes hasta que estén listos para servir.
 
 - Despliegues automatizados y rollbacks
 
-Kubernetes implementa progresivamente los cambios en su aplicación o su configuración, mientras supervisa el estado de la aplicación para asegurarse de que no destruya todas sus instancias al mismo tiempo. Si algo sale mal, Kubernetes revertirá el cambio por ti. Aproveche un creciente ecosistema de soluciones de despliegue.
+	: Kubernetes implementa progresivamente los cambios en su aplicación o su configuración, mientras supervisa el estado de la aplicación para asegurarse de que no destruya todas sus instancias al mismo tiempo. Si algo sale mal, Kubernetes revertirá el cambio por ti. Aproveche un creciente ecosistema de soluciones de despliegue.
 
 - Secretos y gestión de la configuración.
 
@@ -34,13 +34,13 @@ Kubernetes implementa progresivamente los cambios en su aplicación o su configu
 
 - Ejecución por lotes
 
-Además de los servicios, Kubernetes puede administrar sus cargas de trabajo por lotes y CI, reemplazando los contenedores que fallan, si lo desea.
+	:	Además de los servicios, Kubernetes puede administrar sus cargas de trabajo por lotes y CI, reemplazando los contenedores que fallan, si lo desea.
 
 - Escala horizontal
 
-Escale su aplicación hacia arriba y hacia abajo con un comando simple, con una interfaz de usuario o automáticamente en función del uso de la CPU.  
+	: Escale su aplicación hacia arriba y hacia abajo con un comando simple, con una interfaz de usuario o automáticamente en función del uso de la CPU.  
 
 [^1]:	Un Secreto es un objeto que contiene una pequeña cantidad de datos confidenciales, como una contraseña, un token o una clave. Dicha información se podría incluir en la especificación del Pod o en una imagen; ponerlo en un objeto Secreto permite un mayor control sobre cómo se usa, y reduce el riesgo de exposición accidental.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTAwMjQ0NywxMDEzNTA0MzkyXX0=
+eyJoaXN0b3J5IjpbODQ2OTg4MjM0LDEwMTM1MDQzOTJdfQ==
 -->
