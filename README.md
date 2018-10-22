@@ -7,7 +7,7 @@ Kubernetes es un sistema open-source (PaaS) para despliegues automáticos, escal
 
 ## Características de Kubernetes
 
-Descubrimiento de servicios y balanceo de carga
+ de servicios y balanceo de carga
 
 No es necesario modificar su aplicación para utilizar un mecanismo de descubrimiento de servicio desconocido. Kubernetes les da a los contenedores sus propias direcciones IP y un solo nombre DNS para un conjunto de contenedores, y pueden equilibrar la carga entre ellos.
 Empaquetado automático
@@ -32,5 +32,5 @@ Escala horizontal
 
 Escale su aplicación hacia arriba y hacia abajo con un comando simple, con una interfaz de usuario o automáticamente en función del uso de la CPU.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NjIxNjg3M119
+eyJoaXN0b3J5IjpbLTE4MzE2OTQzOF19
 -->
