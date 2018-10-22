@@ -13,7 +13,7 @@ No es necesario modificar su aplicación para utilizar un mecanismo de creación
 
 - Empaquetado automático
 
-Coloca automáticamente los contenedores según sus requisitos de recursos y otras restricciones, sin sacrificar la disponibilidad. Combine cargas de trabajo críticas y de mejor esfuerzo para aumentar la utilización y ahorrar aún más recursos.
+Kubernete coloca automáticamente los contenedores en los servidores según sus requisitos de recursos y otras restricciones, sin sacrificar la disponibilidad. Combina cargas de trabajo críticas y de mejor esfuerzo para aumentar la utilización y ahorrar aún más recursos.
 
 - Orquestación de almacenamiento
 
@@ -35,5 +35,5 @@ Escala horizontal
 
 Escale su aplicación hacia arriba y hacia abajo con un comando simple, con una interfaz de usuario o automáticamente en función del uso de la CPU.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTI2MjY0NTVdfQ==
+eyJoaXN0b3J5IjpbLTQxMDY2OTk2MV19
 -->
