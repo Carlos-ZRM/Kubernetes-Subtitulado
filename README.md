@@ -9,7 +9,7 @@ Kubernetes es un sistema open-source (PaaS) para despliegues automáticos, escal
 
 Creación de servicios y balanceo de carga
 
-- No es necesario modificar su aplicación para utilizar un mecanismo de creación de servicio desconocido. Kubernetes les da a los contenedores sus propias direcciones IP y un solo nombre DNS para un conjunto de contenedores, y pueden equilibrar la carga entre ellos. 
+- No es necesario modificar su aplicación para utilizar un mecanismo de creación de servicio desconocido. Kubernetes les da a los contenedores sus propias direcciones IP y un solo nombre DNS para un conjunto de contenedores, y pueden equilibrar la carga entre ellos. Puedes crear micro-servicios y crear replicas de este, Kubernetes hará un balanceo de carga entre las replicas y solo se
 
 Empaquetado automático
 
@@ -33,5 +33,5 @@ Escala horizontal
 
 Escale su aplicación hacia arriba y hacia abajo con un comando simple, con una interfaz de usuario o automáticamente en función del uso de la CPU.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzI0Mzc3OF19
+eyJoaXN0b3J5IjpbLTE3MjE1MjkzNzBdfQ==
 -->
