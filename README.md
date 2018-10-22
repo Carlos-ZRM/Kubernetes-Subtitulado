@@ -40,6 +40,9 @@ Kubernetes es un sistema open-source (PaaS) para despliegues automáticos, escal
 
 	: Escale su aplicación hacia arriba y hacia abajo con un comando simple, con una interfaz de usuario o automáticamente en función del uso de la CPU.  
 
+## Conceptos básicos de Kubernetes
+
+
 [^1]:	Un Secreto es un objeto que contiene una pequeña cantidad de datos confidenciales, como una contraseña, un token o una clave. Dicha información se podría incluir en la especificación del Pod o en una imagen; ponerlo en un objeto Secreto permite un mayor control sobre cómo se usa, y reduce el riesgo de exposición accidental.
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbODQ2OTg4MjM0LDEwMTM1MDQzOTJdfQ==
