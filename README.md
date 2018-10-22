@@ -30,12 +30,14 @@ Kubernetes implementa progresivamente los cambios en su aplicación o su configu
 - Secreto y gestión de la configuración.
 
 Implemente y actualice los secretos y la configuración de la aplicación sin reconstruir su imagen y sin exponer secretos en la configuración de su pila.
-Ejecución por lotes
+
+- Ejecución por lotes
 
 Además de los servicios, Kubernetes puede administrar sus cargas de trabajo por lotes y CI, reemplazando los contenedores que fallan, si lo desea.
-Escala horizontal
+
+- Escala horizontal
 
 Escale su aplicación hacia arriba y hacia abajo con un comando simple, con una interfaz de usuario o automáticamente en función del uso de la CPU.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNzUwOTM2XX0=
+eyJoaXN0b3J5IjpbMTAxMzUwNDM5Ml19
 -->
