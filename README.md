@@ -27,7 +27,7 @@ Kubernete reinicia los contenedores que fallan, reemplaza y reprograma los conte
 
 Kubernetes implementa progresivamente los cambios en su aplicación o su configuración, mientras supervisa el estado de la aplicación para asegurarse de que no destruya todas sus instancias al mismo tiempo. Si algo sale mal, Kubernetes revertirá el cambio por ti. Aproveche un creciente ecosistema de soluciones de despliegue.
 
-- Secreto y gestión de la configuración.
+- Secretos y gestión de la configuración.
 
 Implemente y actualice los secretos y la configuración de la aplicación sin reconstruir su imagen y sin exponer secretos en la configuración de su pila.
 
@@ -39,5 +39,5 @@ Además de los servicios, Kubernetes puede administrar sus cargas de trabajo por
 
 Escale su aplicación hacia arriba y hacia abajo con un comando simple, con una interfaz de usuario o automáticamente en función del uso de la CPU.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMzUwNDM5Ml19
+eyJoaXN0b3J5IjpbLTM4ODQ3MDM2OSwxMDEzNTA0MzkyXX0=
 -->
