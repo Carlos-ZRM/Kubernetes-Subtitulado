@@ -29,7 +29,7 @@ Kubernetes implementa progresivamente los cambios en su aplicación o su configu
 
 - Secretos y gestión de la configuración.
 
-	: Implemente y actualice los secretos [^1]y la configuración de la aplicación sin reconstruir su imagen y sin exponer secretos en la configuración de su pila.
+	: Implemente y actualice los secretos [^1] y la configuración de la aplicación sin reconstruir su imagen y sin exponer secretos en la configuración de su pila.
 
 
 - Ejecución por lotes
@@ -39,6 +39,8 @@ Además de los servicios, Kubernetes puede administrar sus cargas de trabajo por
 - Escala horizontal
 
 Escale su aplicación hacia arriba y hacia abajo con un comando simple, con una interfaz de usuario o automáticamente en función del uso de la CPU.  
+
+[^1]:	Un Secreto es un objeto que contiene una pequeña cantidad de datos confidenciales, como una contraseña, un token o una clave. Dicha información se podría incluir en la especificación del Pod o en una imagen; ponerlo en un objeto Secreto permite un mayor control sobre cómo se usa, y reduce el riesgo de exposición accidental.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2OTQ4NDAzMiwxMDEzNTA0MzkyXX0=
+eyJoaXN0b3J5IjpbLTE0NTAwMjQ0NywxMDEzNTA0MzkyXX0=
 -->
