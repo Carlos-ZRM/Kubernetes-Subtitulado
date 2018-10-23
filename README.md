@@ -3,7 +3,8 @@ Este git es un tutorial de la instalación de Kubernetes. Tiene como proposito n
 
 ## ¿Qué es Kubernetes?
 
-Kubernetes es un sistema open-source (PaaS) para despliegues automáticos, escalamiento y administración de aplicaciones contenerizadas
+Kubernetes es un sistema open-source (PaaS) para despliegues automáticos, escalamiento y administración de aplicaciones contenerizadas.
+Kubernetes proporciona un entorno de gestión centrado en contenedores. Organiza la infraestructura de computación, redes y almacenamiento
 
 ## Características de Kubernetes
 
@@ -45,6 +46,6 @@ Kubernetes es un sistema open-source (PaaS) para despliegues automáticos, escal
 
 [^1]:	Un Secreto es un objeto que contiene una pequeña cantidad de datos confidenciales, como una contraseña, un token o una clave. Dicha información se podría incluir en la especificación del Pod o en una imagen; ponerlo en un objeto Secreto permite un mayor control sobre cómo se usa, y reduce el riesgo de exposición accidental.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTUxNjA1NSw4NDY5ODgyMzQsMTAxMz
-UwNDM5Ml19
+eyJoaXN0b3J5IjpbNDY5NTc5ODY2LC0yNzk1MTYwNTUsODQ2OT
+g4MjM0LDEwMTM1MDQzOTJdfQ==
 -->
