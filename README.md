@@ -39,13 +39,13 @@ Kubernetes proporciona un entorno de gestión centrado en contenedores. Orquesta
 
 - Escala horizontal
 
-		:Escale su aplicación hacia arriba y hacia abajo con un comando simple, con una interfaz de usuario o automáticamente en función del uso de la CPU.  
+		: scale su aplicación hacia arriba y hacia abajo con un comando simple, con una interfaz de usuario o automáticamente en función del uso de la CPU.  
 
 ## Conceptos básicos de Kubernetes
 
 
 [^1]:	Un Secreto es un objeto que contiene una pequeña cantidad de datos confidenciales, como una contraseña, un token o una clave. Dicha información se podría incluir en la especificación del Pod o en una imagen; ponerlo en un objeto Secreto permite un mayor control sobre cómo se usa, y reduce el riesgo de exposición accidental.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI5NTc0MzY1LC0yNzk1MTYwNTUsODQ2OT
-g4MjM0LDEwMTM1MDQzOTJdfQ==
+eyJoaXN0b3J5IjpbLTgwMzMzMzQ0OCwyMjk1NzQzNjUsLTI3OT
+UxNjA1NSw4NDY5ODgyMzQsMTAxMzUwNDM5Ml19
 -->
