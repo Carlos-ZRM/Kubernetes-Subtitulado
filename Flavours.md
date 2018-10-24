@@ -4,11 +4,12 @@ Existen varias formas para crear un cluster de Kubernetes. La instalación se de
 - Instalación en maquinas locales o barematal
 - Servicios alojados
 - Servicios en la nube
-- On 
+- Soluciones On-Premises
+- 
 
 https://kubernetes.io/docs/setup/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MzQ2OTQ5Miw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTQ1MzMxODQzMCw3MzA5OTgxMTZdfQ==
 -->
