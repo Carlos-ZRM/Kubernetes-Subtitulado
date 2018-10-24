@@ -31,6 +31,7 @@ Existen varias formas para crear un cluster de Kubernetes. La instalación se de
 	Estas soluciones le permiten crear clústeres Kubernetes en su red interna, segura y en la nube
 	- GKE On-Prem
 	- Rancher 2.0
+	- IBM Cloud Private
 	- SUSE CaaS Plataform
 	- SUSE Cloud Application Platform
 
@@ -40,6 +41,6 @@ https://kubernetes.io/docs/setup/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTgzMDU2NCwtMTc5OTI3ODYwOCwtMT
+eyJoaXN0b3J5IjpbLTM4MDY1NTMwNywtMTc5OTI3ODYwOCwtMT
 U1MDk3OTgyMiw3MzA5OTgxMTZdfQ==
 -->
