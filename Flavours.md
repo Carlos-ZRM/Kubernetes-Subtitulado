@@ -10,12 +10,8 @@ Existen varias formas para crear un cluster de Kubernetes. La instalación se de
 	Es un clúster de kubernetes de varios nodos que solo requiere un demonio docker. Utiliza la técnica docker-in-docker para generar el clúster Kubernetes
 - Servicios alojados
 	Proporcionan luster de kubernetes administrados
-	- AppsCode.com proporciona clusters de Kubernetes administrados para varias nubes públicas, incluidas AWS y Google Cloud Platform.
-
-APPUiO ejecuta una plataforma de nube pública OpenShift, que admite cualquier carga de trabajo de Kubernetes. Además, APPUiO ofrece Private Managed OpenShift Clusters, que se ejecutan en cualquier nube pública o privada.
-
-Amazon Elastic Container Service para Kubernetes ofrece el servicio de Kubernetes administrado.
-
+	
+	-	Amazon Elastic Container Service for Kubernetes 
 El servicio de Azure Kubernetes ofrece clusters de Kubernetes administrados.
 
 Giant Swarm ofrece clusters de Kubernetes administrados en su propio centro de datos, en las instalaciones o en nubes públicas.
@@ -48,6 +44,6 @@ https://kubernetes.io/docs/setup/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDYyMjA0MiwtMTU1MDk3OTgyMiw3Mz
+eyJoaXN0b3J5IjpbMjExNDQ4NjgzNCwtMTU1MDk3OTgyMiw3Mz
 A5OTgxMTZdfQ==
 -->
