@@ -4,7 +4,8 @@ Existen varias formas para crear un cluster de Kubernetes. La instalación se de
 - Instalación en maquinas locales o barematal
 	-   Minikube
 			Es un método para crear un clúster local de Kubernetes de un solo nodo para el desarrollo y las pruebas. La configuración está completamente automatizada y no requiere una cuenta de proveedor en la nube.
-	-	
+	-	IBM Cloud Private-CE (Community Edition 
+	Se utilizan maquinas virtuales en la maquina virtual parael despliegue de Kubernetes  can use VirtualBox on your machine to deploy Kubernetes to one or more VMs for development and test scenarios. Scales to full multi-node cluster.
 - Servicios alojados
 - Servicios en la nube
 - Soluciones On-Premises
@@ -15,5 +16,5 @@ https://kubernetes.io/docs/setup/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTE0MDkyOCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIxMTg5NTQ3NDIsNzMwOTk4MTE2XX0=
 -->
