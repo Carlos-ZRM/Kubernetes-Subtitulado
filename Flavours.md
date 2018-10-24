@@ -15,14 +15,8 @@ Existen varias formas para crear un cluster de Kubernetes. La instalación se de
 	-  Azure Kubernetes Service
 	-  Google Kubernetes Engine
 	- IBM Cloud Kubernetes Service
-Kubermatic provides managed Kubernetes clusters for various public clouds, including AWS and Digital Ocean, as well as on-premises with OpenStack integration.
-
-Kublr offers enterprise-grade secure, scalable, highly reliable Kubernetes clusters on AWS, Azure, GCP, and on-premise. It includes out-of-the-box backup and disaster recovery, multi-cluster centralized logging and monitoring, and built-in alerting.
-
-Madcore.Ai is devops-focused CLI tool for deploying Kubernetes infrastructure in AWS. Master, auto-scaling group nodes with spot-instances, ingress-ssl-lego, Heapster, and Grafana.
-
-OpenShift Dedicated offers managed Kubernetes clusters powered by OpenShift.
-
+	- OpenShift Dedicated offers managed Kubernetes clusters
+	- 
 OpenShift Online provides free hosted access for Kubernetes applications.
 
 Oracle Container Engine for Kubernetes is a fully-managed, scalable, and highly available service that you can use to deploy your containerized applications to the cloud.
@@ -39,6 +33,6 @@ https://kubernetes.io/docs/setup/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2Mzg0MTM0NiwtMTU1MDk3OTgyMiw3Mz
+eyJoaXN0b3J5IjpbLTE0ODkxNjY4NiwtMTU1MDk3OTgyMiw3Mz
 A5OTgxMTZdfQ==
 -->
