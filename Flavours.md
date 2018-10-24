@@ -12,29 +12,24 @@ Existen varias formas para crear un cluster de Kubernetes. La instalación se de
 	Proporcionan luster de kubernetes administrados
 	
 	-	Amazon Elastic Container Service for Kubernetes 
-El servicio de Azure Kubernetes ofrece clusters de Kubernetes administrados.
+	-  Azure Kubernetes Service
+	-  Google Kubernetes Engine
+	- IBM Cloud Kubernetes Service
+Kubermatic provides managed Kubernetes clusters for various public clouds, including AWS and Digital Ocean, as well as on-premises with OpenStack integration.
 
-Giant Swarm ofrece clusters de Kubernetes administrados en su propio centro de datos, en las instalaciones o en nubes públicas.
+Kublr offers enterprise-grade secure, scalable, highly reliable Kubernetes clusters on AWS, Azure, GCP, and on-premise. It includes out-of-the-box backup and disaster recovery, multi-cluster centralized logging and monitoring, and built-in alerting.
 
-Google Kubernetes Engine ofrece clusters de Kubernetes administrados.
+Madcore.Ai is devops-focused CLI tool for deploying Kubernetes infrastructure in AWS. Master, auto-scaling group nodes with spot-instances, ingress-ssl-lego, Heapster, and Grafana.
 
-IBM Cloud Kubernetes Service ofrece clusters de Kubernetes administrados con opciones de aislamiento, herramientas operativas, información de seguridad integrada en imágenes y contenedores, e integración con Watson, IoT y datos.
+OpenShift Dedicated offers managed Kubernetes clusters powered by OpenShift.
 
-Kubermatic proporciona clusters de Kubernetes administrados para varias nubes públicas, incluyendo AWS y Digital Ocean, así como en las instalaciones con la integración de OpenStack.
+OpenShift Online provides free hosted access for Kubernetes applications.
 
-Kublr ofrece clusters de Kubernetes seguros, escalables y seguros de nivel empresarial en AWS, Azure, GCP y en las instalaciones. Incluye copia de seguridad y recuperación de desastres listas para usar, registro y monitoreo centralizado de múltiples clústeres y alertas incorporadas.
+Oracle Container Engine for Kubernetes is a fully-managed, scalable, and highly available service that you can use to deploy your containerized applications to the cloud.
 
-Madcore.Ai es una herramienta CLI centrada en devops para implementar la infraestructura de Kubernetes en AWS. Maestro, nodos de grupo de escalado automático con instancias puntuales, ingress-ssl-lego, Heapster y Grafana.
+Platform9 offers managed Kubernetes on-premises or on any public cloud, and provides 24/7 health monitoring and alerting. (Kube2go, a web-UI driven Kubernetes cluster deployment service Platform9 released, has been integrated to Platform9 Sandbox.)
 
-OpenShift Dedicated ofrece clusters de Kubernetes administrados impulsados ​​por OpenShift.
-
-OpenShift Online proporciona acceso alojado gratuito para aplicaciones Kubernetes.
-
-Oracle Container Engine para Kubernetes es un servicio totalmente gestionable, escalable y de alta disponibilidad que puede utilizar para implementar sus aplicaciones en contenedores en la nube.
-
-Platform9 ofrece Kubernetes administrados en las instalaciones o en cualquier nube pública, y proporciona monitoreo y alerta de salud 24/7. (Kube2go, un servicio de implementación de clúster Kubernetes de Plataforma UI impulsado por la plataforma web9 lanzado, se ha integrado a Platform9 Sandbox)
-
-Stackpoint.io proporciona la gestión y automatización de la infraestructura de Kubernetes para múltiples nubes públicas
+Stackpoint.io provides Kubernetes infrastructure automation and management for multiple public clouds
 - Servicios en la nube
 - Soluciones On-Premises
 
@@ -44,6 +39,6 @@ https://kubernetes.io/docs/setup/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNDQ4NjgzNCwtMTU1MDk3OTgyMiw3Mz
+eyJoaXN0b3J5IjpbMTY2Mzg0MTM0NiwtMTU1MDk3OTgyMiw3Mz
 A5OTgxMTZdfQ==
 -->
