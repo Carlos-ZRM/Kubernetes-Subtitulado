@@ -9,7 +9,7 @@ Existen varias formas para crear un cluster de Kubernetes. La instalación se de
 	-	Kubeadm-dind
 	Es un clúster de kubernetes de varios nodos que solo requiere un demonio docker. Utiliza la técnica docker-in-docker para generar el clúster Kubernetes
 - Servicios alojados
-	Proporcionan luster de kubernetes administrados
+	Proporcionan clúster de kubernetes administrados
 	
 	-	Amazon Elastic Container Service for Kubernetes 
 	-  Azure Kubernetes Service
@@ -27,6 +27,6 @@ https://kubernetes.io/docs/setup/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMzg0NTg1MiwtMTU1MDk3OTgyMiw3Mz
+eyJoaXN0b3J5IjpbLTk0ODA4NDg0NCwtMTU1MDk3OTgyMiw3Mz
 A5OTgxMTZdfQ==
 -->
