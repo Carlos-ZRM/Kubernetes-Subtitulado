@@ -19,6 +19,8 @@ Existen varias formas para crear un cluster de Kubernetes. La instalación se de
 	- OpenShift Online
 	- Oracle Container Engine for Kubernetes automation and management for multiple public clouds
 - Servicios en la nube
+	Estas soluciones le permiten crear clústeres Kubernetes en una variedad de proveedores de IaaS.
+	- Ali
 - Soluciones On-Premises
 
 https://kubernetes.io/docs/setup/pick-right-solution/#table-of-solutions
@@ -27,6 +29,6 @@ https://kubernetes.io/docs/setup/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0ODA4NDg0NCwtMTU1MDk3OTgyMiw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE5Mzg2NzY0OTksLTE1NTA5Nzk4MjIsNz
+MwOTk4MTE2XX0=
 -->
