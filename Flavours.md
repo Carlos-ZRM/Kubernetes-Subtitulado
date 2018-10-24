@@ -16,14 +16,8 @@ Existen varias formas para crear un cluster de Kubernetes. La instalación se de
 	-  Google Kubernetes Engine
 	- IBM Cloud Kubernetes Service
 	- OpenShift Dedicated offers managed Kubernetes clusters
-	- 
-OpenShift Online provides free hosted access for Kubernetes applications.
-
-Oracle Container Engine for Kubernetes is a fully-managed, scalable, and highly available service that you can use to deploy your containerized applications to the cloud.
-
-Platform9 offers managed Kubernetes on-premises or on any public cloud, and provides 24/7 health monitoring and alerting. (Kube2go, a web-UI driven Kubernetes cluster deployment service Platform9 released, has been integrated to Platform9 Sandbox.)
-
-Stackpoint.io provides Kubernetes infrastructure automation and management for multiple public clouds
+	- OpenShift Online
+	- Oracle Container Engine for Kubernetes automation and management for multiple public clouds
 - Servicios en la nube
 - Soluciones On-Premises
 
@@ -33,6 +27,6 @@ https://kubernetes.io/docs/setup/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODkxNjY4NiwtMTU1MDk3OTgyMiw3Mz
+eyJoaXN0b3J5IjpbLTYwMzg0NTg1MiwtMTU1MDk3OTgyMiw3Mz
 A5OTgxMTZdfQ==
 -->
