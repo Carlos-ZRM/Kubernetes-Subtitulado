@@ -6,7 +6,8 @@ Existen varias formas para crear un cluster de Kubernetes. La instalación se de
 			Es un método para crear un clúster local de Kubernetes de un solo nodo para el desarrollo y las pruebas. La configuración está completamente automatizada y no requiere una cuenta de proveedor en la nube.
 	-	IBM Cloud Private-CE (Community Edition 
 	Se utilizan maquinas virtuales en la maquina virtual parael despliegue de Kubernetes para escenarios de prueba, se pueden escalar a un cluster multinodos.
-	-	
+	-	Kubeadm-dind
+	Es un clúster de kubernetes de varios nodos que solo requiere un demonio docker. Utiliza la técnica docker-in-docker para generar el clúster Kubernetes
 - Servicios alojados
 - Servicios en la nube
 - Soluciones On-Premises
@@ -17,5 +18,5 @@ https://kubernetes.io/docs/setup/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3ODgxNDIzLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE1NTA5Nzk4MjIsNzMwOTk4MTE2XX0=
 -->
