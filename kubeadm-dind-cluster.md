@@ -1,9 +1,13 @@
 # Instalación de Kubernetes
 ## Ubuntu
 ### Aprovisionamiento
+  
 
+```bash
 setenforce 0
 sudo swapoff -a
+```
+
 
 apt-get install docker
 systemctl enable docker.service
@@ -32,5 +36,5 @@ apt-mark hold kubelet kubeadm kubectl
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc0MjQ2NjA3LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTEzOTUxNDI0MTksNzMwOTk4MTE2XX0=
 -->
