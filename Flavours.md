@@ -1,5 +1,5 @@
 
-
+# Flavours
 Existen varias formas para crear un cluster de Kubernetes. La instalación se decidira a partir de la infraestructura disponible (PC, VM, IaaS ... ), del tamaño del cluster (Laboratorio de pruebas, cluster para un microservicio o incluso implementar una PaaS). También se pueden elegir distribuciones de Kubernetes que cuantan con servicios y configuraciones modificadas o ya creadas. (OpenShift, IBM Cloud Kubernetes Service) 
 - Instalación en maquinas locales o barematal
 	-   Minikube
@@ -41,6 +41,6 @@ https://kubernetes.io/docs/setup/
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MDY1NTMwNywtMTc5OTI3ODYwOCwtMT
-U1MDk3OTgyMiw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTIxNTk3NDE5OCwtMzgwNjU1MzA3LC0xNz
+k5Mjc4NjA4LC0xNTUwOTc5ODIyLDczMDk5ODExNl19
 -->
