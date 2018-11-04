@@ -15,8 +15,9 @@ Se recomienda instalar docker desde los repositorios, ya que CE y EE mantiene Do
 ```bash
 apt-get install docker
 systemctl enable docker.service
-
-
+systemctl start docker.service
+```
+### Descarga y Aprovisionamiento de Kubeadm
 
 apt-get update && apt-get install -y apt-transport-https curl
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
@@ -40,6 +41,6 @@ apt-mark hold kubelet kubeadm kubectl
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjEyNzM4NywtMTM5NTE0MjQxOSw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE2MjQ0MDIzODksLTEzOTUxNDI0MTksNz
+MwOTk4MTE2XX0=
 -->
