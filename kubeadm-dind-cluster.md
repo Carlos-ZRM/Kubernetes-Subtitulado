@@ -36,7 +36,7 @@ apt-get install -y kubelet kubeadm kubectl
 apt-mark hold kubelet kubeadm kubectl
 ```
 ### Creación del cluster
-### 
+#### Aprovisionamiento del Master
 ``` bash
 kubeadm config images list
 kubeadm config images pull
@@ -49,9 +49,13 @@ kubectl apply -f https://docs.projectcalico.org/v3.1/getting-started/kubernetes/
 kubectl apply -f https://docs.projectcalico.org/v3.1/getting-started/kubernetes/installation/hosted/kubernetes-datastore/calico-networking/1.7/calico.yaml
 kubectl get pods --all-namespaces
 ```
+#### Aprovisionamiento del minion
+``` bash
+
+```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzgwMDM4MiwxNDQ1NDcwMTg5LC0xMD
-I1MTQ2Nzc0LC0xODQwNjIxMTE1LDg5NzM5NzY4MywtMTM5NTE0
-MjQxOSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE1NzM0NTc3MDUsMTQ0NTQ3MDE4OSwtMT
+AyNTE0Njc3NCwtMTg0MDYyMTExNSw4OTczOTc2ODMsLTEzOTUx
+NDI0MTksNzMwOTk4MTE2XX0=
 -->
