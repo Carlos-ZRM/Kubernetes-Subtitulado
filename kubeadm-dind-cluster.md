@@ -37,6 +37,7 @@ apt-mark hold kubelet kubeadm kubectl
 ```
 ### Creación del cluster
 ``` bash
+kubeadm config images list
 kubeadm config images pull
  kubeadm init --pod-network-cidr=192.168.0.0/16 --apiserver-advertise-address=0.0.0.0
  mkdir -p $HOME/.kube
@@ -49,6 +50,7 @@ kubectl get pods --all-namespaces
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjUxNDY3NzQsLTE4NDA2MjExMTUsOD
-k3Mzk3NjgzLC0xMzk1MTQyNDE5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTQ0NTQ3MDE4OSwtMTAyNTE0Njc3NCwtMT
+g0MDYyMTExNSw4OTczOTc2ODMsLTEzOTUxNDI0MTksNzMwOTk4
+MTE2XX0=
 -->
