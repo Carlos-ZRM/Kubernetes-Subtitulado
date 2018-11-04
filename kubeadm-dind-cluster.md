@@ -19,15 +19,22 @@ systemctl start docker.service
 ```
 ### Descarga y Aprovisionamiento de Kubeadm
 
-apt-get update && apt-get install -y apt-transport-https curl
-curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+```bash
+apt-get update && apt-get install -y 
+
+apt-transport-https curl
+
+curl -s  https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+
 cat <<EOF >/etc/apt/sources.list.d/kubernetes.list
 deb https://apt.kubernetes.io/ kubernetes-xenial main
 EOF
+
 apt-get update
+
 apt-get install -y kubelet kubeadm kubectl
 apt-mark hold kubelet kubeadm kubectl
-
+```
 
  kubeadm init --pod-network-cidr=192.168.0.0/16
 
@@ -41,6 +48,6 @@ apt-mark hold kubelet kubeadm kubectl
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ0MDIzODksLTEzOTUxNDI0MTksNz
-MwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbODk3Mzk3NjgzLC0xMzk1MTQyNDE5LDczMD
+k5ODExNl19
 -->
