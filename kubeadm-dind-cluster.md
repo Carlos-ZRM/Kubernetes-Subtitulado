@@ -2,13 +2,14 @@
 ## Ubuntu
 ### Aprovisionamiento
   
-
+- Poner a Selinux en modo permisivo
+- Desactivar memoria swap
 ```bash
 setenforce 0
 sudo swapoff -a
 ```
 
-
+##3
 apt-get install docker
 systemctl enable docker.service
 
@@ -36,5 +37,6 @@ apt-mark hold kubelet kubeadm kubectl
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTUxNDI0MTksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTg1NTg1MzE0OCwtMTM5NTE0MjQxOSw3Mz
+A5OTgxMTZdfQ==
 -->
