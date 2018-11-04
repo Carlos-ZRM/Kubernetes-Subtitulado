@@ -9,7 +9,10 @@ setenforce 0
 sudo swapoff -a
 ```
 
-##3
+### Instalación de Docker
+Se recomienda instalar docker desde los repositorios, ya que CE y EE mantiene Docker Swarm
+
+```bash
 apt-get install docker
 systemctl enable docker.service
 
@@ -37,6 +40,6 @@ apt-mark hold kubelet kubeadm kubectl
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTg1MzE0OCwtMTM5NTE0MjQxOSw3Mz
+eyJoaXN0b3J5IjpbLTMxMjEyNzM4NywtMTM5NTE0MjQxOSw3Mz
 A5OTgxMTZdfQ==
 -->
