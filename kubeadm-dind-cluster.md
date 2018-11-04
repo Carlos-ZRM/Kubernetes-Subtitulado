@@ -35,7 +35,7 @@ apt-get update
 apt-get install -y kubelet kubeadm kubectl
 apt-mark hold kubelet kubeadm kubectl
 ```
-
+### Creación del cluster
  kubeadm init --pod-network-cidr=192.168.0.0/16
 
  mkdir -p $HOME/.kube
@@ -48,6 +48,6 @@ apt-mark hold kubelet kubeadm kubectl
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3Mzk3NjgzLC0xMzk1MTQyNDE5LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTE4NDA2MjExMTUsODk3Mzk3NjgzLC0xMz
+k1MTQyNDE5LDczMDk5ODExNl19
 -->
