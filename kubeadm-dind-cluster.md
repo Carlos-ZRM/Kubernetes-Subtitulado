@@ -36,6 +36,7 @@ apt-get install -y kubelet kubeadm kubectl
 apt-mark hold kubelet kubeadm kubectl
 ```
 ### Creación del cluster
+### 
 ``` bash
 kubeadm config images list
 kubeadm config images pull
@@ -50,7 +51,7 @@ kubectl get pods --all-namespaces
 ```
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NTQ3MDE4OSwtMTAyNTE0Njc3NCwtMT
-g0MDYyMTExNSw4OTczOTc2ODMsLTEzOTUxNDI0MTksNzMwOTk4
-MTE2XX0=
+eyJoaXN0b3J5IjpbMTk2MzgwMDM4MiwxNDQ1NDcwMTg5LC0xMD
+I1MTQ2Nzc0LC0xODQwNjIxMTE1LDg5NzM5NzY4MywtMTM5NTE0
+MjQxOSw3MzA5OTgxMTZdfQ==
 -->
