@@ -1,6 +1,7 @@
 # Instalación de Kubernetes
 ## Ubuntu
-### 
+### Aprovisionamiento
+
 setenforce 0
 sudo swapoff -a
 
@@ -31,5 +32,5 @@ apt-mark hold kubelet kubeadm kubectl
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTQ3MDI3NCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbNzc0MjQ2NjA3LDczMDk5ODExNl19
 -->
