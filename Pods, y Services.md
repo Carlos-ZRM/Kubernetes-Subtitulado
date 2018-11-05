@@ -1,4 +1,4 @@
-# Qu
+# Qué es un pod
 Un pod (como en un pod de ballenas o guisantes) es un grupo de uno o más contenedores (como los contenedores Docker), con almacenamiento y red compartidos, y una especificación sobre cómo ejecutar los contenedores. Los contenidos de un pod siempre se colocan y se programan conjuntamente, y se ejecutan en un contexto compartido. Un pod modela un "host lógico" específico de la aplicación (contiene uno o más contenedores de aplicaciones que están relativamente estrechamente acoplados) en un mundo pre-contenedor, ejecutarse en la misma máquina virtual o física significaría ejecutarse en el mismo host lógico .  
   
 Si bien Kubernetes admite más tipos de contenedor que solo Docker, Docker es el tipo más conocido, y ayuda a describir los pods en términos de Docker.  
@@ -15,8 +15,20 @@ Al igual que los contenedores de aplicaciones individuales, las cápsulas se con
   
 Cuando se dice que algo tiene la misma vida útil que un pod, como un volumen, eso significa que existe mientras exista ese pod (con ese UID). Si ese pod se elimina por cualquier motivo, incluso si se crea un reemplazo idéntico, la cosa relacionada (por ejemplo, el volumen) también se destruye y se crea de nuevo.
 
+## Administración
+
+Los Pod son un modelo del patrón de múltiples procesos de cooperación que forman una unidad de servicio cohesiva. Simplifican la implementación y la administración de la aplicación al proporcionar una abstracción de mayor nivel que el conjunto de sus aplicaciones constitutivas. Los pods sirven como unidad de despliegue, escala horizontal y replicación. La asignación (co-programación), el destino compartido (por ejemplo, la terminación), la replicación coordinada, el uso compartido de recursos y la gestión de dependencias se manejan automáticamente para los contenedores en un pod.  
+Intercambio de recursos y comunicación.  
+  
+Los pods permiten el intercambio de datos y la comunicación entre sus constituyentes.  
+  
+Todas las aplicaciones en un pod utilizan el mismo espacio de nombres de red (la misma IP y el mismo espacio de puerto) y, por lo tanto, pueden "encontrarse" entre sí y comunicarse utilizando localhost. Debido a esto, las aplicaciones en un pod deben coordinar su uso de puertos. Cada pod tiene una dirección IP en un espacio de red compartido plano que tiene comunicación completa con otras computadoras físicas y pods a través de la red.  
+  
+El nombre de host se establece en el Nombre del pod para los contenedores de aplicaciones dentro del pod. Más detalles sobre redes.  
+  
+Además de definir los contenedores de aplicaciones que se ejecutan en el pod, el pod especifica un conjunto de volúmenes de almacenamiento compartido. Los volúmenes permiten que los datos sobrevivan a reinicios de contenedores y se compartan entre las aplicaciones dentro del pod.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTg4NjUyMDksLTEzOTc5Mzc4NDhdfQ
-==
+eyJoaXN0b3J5IjpbMTU1NjY3NDA1MywtMTM5NzkzNzg0OF19
 -->
