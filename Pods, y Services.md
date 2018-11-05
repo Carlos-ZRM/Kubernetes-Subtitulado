@@ -1,5 +1,5 @@
 
-Un pod (como en un pod de ballenas o guisantes) es un grupo de uno o más contenedores (como los contenedores Docker), con almacenamiento / red compartidos, y una especificación sobre cómo ejecutar los contenedores. Los contenidos de un pod siempre se colocan y se programan conjuntamente, y se ejecutan en un contexto compartido. Un pod modela un "host lógico" específico de la aplicación (contiene uno o más contenedores de aplicaciones que están relativamente estrechamente acoplados) en un mundo pre-contenedor, ejecutarse en la misma máquina virtual o física significaría ejecutarse en el mismo host lógico .  
+Un pod (como en un pod de ballenas o guisantes) es un grupo de uno o más contenedores (como los contenedores Docker), con almacenamiento y red compartidos, y una especificación sobre cómo ejecutar los contenedores. Los contenidos de un pod siempre se colocan y se programan conjuntamente, y se ejecutan en un contexto compartido. Un pod modela un "host lógico" específico de la aplicación (contiene uno o más contenedores de aplicaciones que están relativamente estrechamente acoplados) en un mundo pre-contenedor, ejecutarse en la misma máquina virtual o física significaría ejecutarse en el mismo host lógico .  
   
 Si bien Kubernetes admite más tiempos de ejecución de contenedor que solo Docker, Docker es el tiempo de ejecución más conocido, y ayuda a describir pods en términos de Docker.  
   
@@ -17,5 +17,5 @@ Cuando se dice que algo tiene la misma vida útil que un pod, como un volumen, e
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzA3OTE2XX0=
+eyJoaXN0b3J5IjpbLTg2Nzc5Nzc1OF19
 -->
