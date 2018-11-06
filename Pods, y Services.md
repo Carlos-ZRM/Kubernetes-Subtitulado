@@ -28,7 +28,18 @@ El nombre de host se establece en el Nombre del pod para los contenedores de apl
   
 Además de definir los contenedores de aplicaciones que se ejecutan en el pod, el pod especifica un conjunto de volúmenes de almacenamiento compartido. Los volúmenes permiten que los datos sobrevivan a reinicios de contenedores y se compartan entre las aplicaciones dentro del pod.
 
+# Service
+
+Las Pods en Kubernetes son mortales. Nacen y cuando mueren, no resucitan. Un ReplicaSets, en particular, crea y destruye Pods dinámicamente (por ejemplo, al escalar hacia arriba o hacia abajo). Si bien cada Pod tiene su propia dirección IP, no se puede confiar en que esas direcciones IP sean estables a lo largo del tiempo. Esto conduce a un problema: si algún conjunto de Pods (llamémoslos backends) proporciona funcionalidad a otros Pods (llamémoslos frontends) dentro del clúster de Kubernetes, ¿cómo se encuentran y descubren esos frontends qué backends hay en ese set?  
+  
+Entrar en Servicios.  
+  
+Un Servicio Kubernetes es una abstracción que define un conjunto lógico de Pods y una política mediante la cual acceder a ellos, a veces llamado un microservicio. El conjunto de Pods a los que apunta un Servicio está (generalmente) determinado por un Selector de etiquetas (vea a continuación las razones por las que podría querer un Servicio sin un selector).  
+  
+Como ejemplo, considere un backend de procesamiento de imágenes que se ejecuta con 3 réplicas. Esas réplicas son fungibles: a los frontends no les importa qué backend usan. Si bien los Pods reales que componen el conjunto de backend pueden cambiar, los clientes de frontend no deben tener en cuenta esto o realizar un seguimiento de la lista de backends. La abstracción del Servicio habilita este desacoplamiento.  
+  
+Para las aplicaciones nativas de Kubernetes, Kubernetes ofrece una sencilla API de puntos finales que se actualiza cada vez que cambia el conjunto de Pods en un Servicio. Para aplicaciones no nativas, Kubernetes ofrece un puente virtual basado en IP a los Servicios que redirige a los Pods back-end.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NjY3NDA1MywtMTM5NzkzNzg0OF19
+eyJoaXN0b3J5IjpbNzYxMzg1MzEsLTEzOTc5Mzc4NDhdfQ==
 -->
