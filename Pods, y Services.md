@@ -32,7 +32,7 @@ Además de definir los contenedores de aplicaciones que se ejecutan en el pod, e
 
 Las Pods en Kubernetes son mortales. Nacen y cuando mueren, no resucitan. Un ReplicaSets, en particular, crea y destruye Pods dinámicamente (por ejemplo, al escalar hacia arriba o hacia abajo). Si bien cada Pod tiene su propia dirección IP, no se puede confiar en que esas direcciones IP sean estables a lo largo del tiempo. Esto conduce a un problema: si algún conjunto de Pods (llamémoslos backends) proporciona funcionalidad a otros Pods (llamémoslos frontends) dentro del clúster de Kubernetes, ¿cómo se encuentran y descubren esos frontends qué backends hay en ese set?  
   
-Entrar en Servicios.  
+## Entrar en Servicios.  
   
 Un Servicio Kubernetes es una abstracción que define un conjunto lógico de Pods y una política mediante la cual acceder a ellos, a veces llamado un microservicio. El conjunto de Pods a los que apunta un Servicio está (generalmente) determinado por un Selector de etiquetas (vea a continuación las razones por las que podría querer un Servicio sin un selector).  
   
@@ -41,5 +41,5 @@ Como ejemplo, considere un backend de procesamiento de imágenes que se ejecuta 
 Para las aplicaciones nativas de Kubernetes, Kubernetes ofrece una sencilla API de puntos finales que se actualiza cada vez que cambia el conjunto de Pods en un Servicio. Para aplicaciones no nativas, Kubernetes ofrece un puente virtual basado en IP a los Servicios que redirige a los Pods back-end.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYxMzg1MzEsLTEzOTc5Mzc4NDhdfQ==
+eyJoaXN0b3J5IjpbMTc3NjEzNzg2MywtMTM5NzkzNzg0OF19
 -->
