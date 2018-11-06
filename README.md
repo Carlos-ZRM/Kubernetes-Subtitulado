@@ -44,8 +44,9 @@ Kubernetes proporciona un entorno de gestión centrado en contenedores. Orquesta
 ## Conceptos básicos de Kubernetes
 
 
-[^1]:	Un Secreto es un objeto que contiene una pequeña cantidad de datos confidenciales, como una contraseña, un token o una clave. Dicha información se podría incluir en la especificación del Pod o en una imagen; ponerlo en un objeto Secreto permite un mayor control sobre cómo se usa, y reduce el riesgo de exposición accidental.
+[^1]:	 Un Secreto es un objeto que contiene una pequeña cantidad de datos confidenciales, como una contraseña, un token o una clave. Dicha información se podría incluir en la especificación del Pod o en una imagen; ponerlo en un objeto Secreto permite un mayor control sobre cómo se usa, y reduce el riesgo de exposición accidental.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzMzMzQ0OCwyMjk1NzQzNjUsLTI3OT
-UxNjA1NSw4NDY5ODgyMzQsMTAxMzUwNDM5Ml19
+eyJoaXN0b3J5IjpbLTQwODY2OTA2MCwtODAzMzMzNDQ4LDIyOT
+U3NDM2NSwtMjc5NTE2MDU1LDg0Njk4ODIzNCwxMDEzNTA0Mzky
+XX0=
 -->
