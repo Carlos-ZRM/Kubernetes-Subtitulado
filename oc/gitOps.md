@@ -11,7 +11,7 @@
 - Pulled automatically Software agents automatically pull the desired state declarations from the source.
 - Continuously reconciled Software agents continuously observe the actual system state and attempt to apply the desired state.
 
-# Why GO
+# Why GitOps
 
 Deal Infra Operations as a Code. 
 - Standard workflow : Use familiar tools and Git workflows from application development teams 
@@ -21,5 +21,5 @@ Deal Infra Operations as a Code.
 
 > Every operation, such as applica‐ tion deployment or infrastructure change, is only possible through Git workflows. And sometimes, this means a cultural shift
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzAxMDI4OV19
+eyJoaXN0b3J5IjpbMTYzMzQ2NDg5LDE0MDcwMTAyODldfQ==
 -->
