@@ -18,6 +18,8 @@ Deal Infra Operations as a Code.
 - Enhanced security: Review changes beforehand, detect configuration drifts, and take action
 -  Visibility and audit: Capture and trace any change to clusters through Git history 
 - Multicluster consistency: Reliably and consistently configure multiple environments and multiple Kubernetes clusters and deployment
+
+> Every operation, such as applica‐ tion deployment or infrastructure change, is only possible through Git workflows. And sometimes, this means a cultural shift
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTY0NDA0NjNdfQ==
+eyJoaXN0b3J5IjpbMTQwNzAxMDI4OV19
 -->
