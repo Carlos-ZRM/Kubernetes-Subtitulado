@@ -11,7 +11,7 @@
 - Pulled automatically Software agents automatically pull the desired state declarations from the source.
 - Continuously reconciled Software agents continuously observe the actual system state and attempt to apply the desired state.
 
-# Why GitOps
+## Why GitOps
 
 Deal Infra Operations as a Code. 
 - Standard workflow : Use familiar tools and Git workflows from application development teams 
@@ -20,6 +20,10 @@ Deal Infra Operations as a Code.
 - Multicluster consistency: Reliably and consistently configure multiple environments and multiple Kubernetes clusters and deployment
 
 > Every operation, such as applica‐ tion deployment or infrastructure change, is only possible through Git workflows. And sometimes, this means a cultural shift
+
+## Tools
+- Registry quay.io redhat.io docker.io
+- Container Engine Podma
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzQ2NDg5LDE0MDcwMTAyODldfQ==
+eyJoaXN0b3J5IjpbMTIwNDAyNzUwMiwxNDA3MDEwMjg5XX0=
 -->
