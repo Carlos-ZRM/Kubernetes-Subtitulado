@@ -14,7 +14,10 @@
 # Why GO
 
 Deal Infra Operations as a Code. 
-- Standard workflow : Use familiar tools and Git workflows from application development teams Enhanced security Review changes beforehand, detect configuration drifts, and take action Visibility and audit Capture and trace any change to clusters through Git history Multicluster consistency Reliably and consistently configure multiple environments and multiple Kuber‐ netes clusters and deployment
+- Standard workflow : Use familiar tools and Git workflows from application development teams 
+- Enhanced security: Review changes beforehand, detect configuration drifts, and take action
+-  Visibility and audit: Capture and trace any change to clusters through Git history 
+- Multicluster consistency: Reliably and consistently configure multiple environments and multiple Kubernetes clusters and deployment
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MTk0NDk5Ml19
+eyJoaXN0b3J5IjpbLTEzOTY0NDA0NjNdfQ==
 -->
