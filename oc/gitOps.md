@@ -27,8 +27,12 @@ Deal Infra Operations as a Code.
 - Container: Podman Buildah Skopeo Docker
 - Orchestration: OpenShift  (CRC) Kubernetes (MINI Shift)
 - GitOps Pipelines: Kustomize Helm
-- GitOps : ArgoCD
--  
+- GitOps CI/CD : ArgoCD
+
+## Kubernetes Objects
+
+- Pod
+- Deployment
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzExNDA2NDEzLDE0MDcwMTAyODldfQ==
+eyJoaXN0b3J5IjpbLTg2ODQ5MzQ4NCwxNDA3MDEwMjg5XX0=
 -->
