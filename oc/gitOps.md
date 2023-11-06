@@ -14,6 +14,8 @@
 ## Why GitOps
 
 Deal Infra Operations as a Code. 
+Infrastructure as code is a method for managing, configuring, and updating the entire software infrastructure at a datacenter using configuration files that are both machine-readable and human-readable. The configuration files are machine-readable in a structured format (usually YAML) so that software tools can read them to automate changes. They are also human-readable so that administrators can maintain them easily and immediately understand what they define. You can think of configuration files as the “code” for the infrastructure.[2]
+
 - Standard workflow : Use familiar tools and Git workflows from application development teams 
 - Enhanced security: Review changes beforehand, detect configuration drifts, and take action
 -  Visibility and audit: Capture and trace any change to clusters through Git history 
@@ -40,5 +42,6 @@ Deal Infra Operations as a Code.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjU2MTcyNSwxNDA3MDEwMjg5XX0=
+eyJoaXN0b3J5IjpbODMxNTM0ODgwLC0xNTY1NjE3MjUsMTQwNz
+AxMDI4OV19
 -->
