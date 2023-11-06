@@ -33,6 +33,10 @@ Deal Infra Operations as a Code.
 
 - Pod
 - Deployment
+- Services
+- Ingress/Routes
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2ODQ5MzQ4NCwxNDA3MDEwMjg5XX0=
+eyJoaXN0b3J5IjpbLTk3Nzk0NDM4MCwxNDA3MDEwMjg5XX0=
 -->
