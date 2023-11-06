@@ -22,9 +22,11 @@ Deal Infra Operations as a Code.
 > Every operation, such as applica‐ tion deployment or infrastructure change, is only possible through Git workflows. And sometimes, this means a cultural shift
 
 ## Tools
-- Registry quay.io redhat.io docker.io
-- Container Podman Buildah Skopeo Docker
-- Orchestration: 
+- Git: Github, Gitlab
+- Registry: quay.io redhat.io docker.io
+- Container: Podman Buildah Skopeo Docker
+- Orchestration: OpenShift  (CRC) Kubernetes (MINI Shift)
+-  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU3NjM5MjgwLDE0MDcwMTAyODldfQ==
+eyJoaXN0b3J5IjpbLTM2MDI5OTg0MywxNDA3MDEwMjg5XX0=
 -->
