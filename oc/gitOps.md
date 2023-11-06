@@ -26,7 +26,9 @@ Deal Infra Operations as a Code.
 - Registry: quay.io redhat.io docker.io
 - Container: Podman Buildah Skopeo Docker
 - Orchestration: OpenShift  (CRC) Kubernetes (MINI Shift)
+- GitOps Pipelines: Kustomize Helm
+- GitOps : ArgoCD
 -  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDI5OTg0MywxNDA3MDEwMjg5XX0=
+eyJoaXN0b3J5IjpbNzExNDA2NDEzLDE0MDcwMTAyODldfQ==
 -->
