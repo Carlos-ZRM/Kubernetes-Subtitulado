@@ -40,8 +40,10 @@ Infrastructure as code is a method for managing, configuring, and updating the e
 - Services
 - Ingress/Routes
 
+## Git Work Flows
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMxNTM0ODgwLC0xNTY1NjE3MjUsMTQwNz
-AxMDI4OV19
+eyJoaXN0b3J5IjpbMTAwMzYwNTYxMiw4MzE1MzQ4ODAsLTE1Nj
+U2MTcyNSwxNDA3MDEwMjg5XX0=
 -->
