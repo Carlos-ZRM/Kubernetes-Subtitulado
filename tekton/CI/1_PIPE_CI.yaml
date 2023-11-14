@@ -1,0 +1,66 @@
+apiVersion: tekton.dev/v1beta1
+kind: Pipeline
+metadata:
+  name: pipeline-ci-api
+spec:
+  #
+  description: | 
+    Pipeline CI que hace el git clone y compila la imagen
+  params:
+  - name: repo-url
+    type: string
+    description: The git repo URL to clone from.  
+  - name: revision
+    type: string
+    description: Git branch
+  - name: img-registry
+    type: string
+    description: Refgistry fqdn
+  - name: img-context
+    type: string
+    description: apiPythonImg/ 
+  workspaces:
+  - name: workspace-git
+    description: | 
+      Workspace para clonar el proyecto
+  - name: dockerconfig-ws
+    description: | 
+      Workspace para el archivo dockerconfigjson
+  tasks:
+  # Task Git clone que recibe los parametros de url y revision ( branch )
+  - name: clone
+    taskRef:
+      name: git-clone
+    workspaces:
+    - name: output
+      workspace: workspace-git
+    params:
+    - name: url
+      value: $(params.repo-url)
+    - name: revision
+      value: $(params.revision)
+  
+  - name: shell
+    taskRef:
+      name: shell
+    runAfter:
+      - clone
+    workspaces:
+    - name: source
+      workspace: workspace-git
+    
+  - name: buildah-bud
+    taskRef:
+      name: buildah
+    runAfter:
+      - shell
+    workspaces:
+    - name: source
+      workspace: workspace-git
+    - name: dockerconfig
+      workspace: dockerconfig-ws
+    params:
+    - name: IMAGE
+      value: $(params.img-registry)
+    - name: CONTEXT
+      value: $(params.img-context)

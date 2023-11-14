@@ -1,0 +1,14 @@
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: shell
+spec:
+  workspaces:
+    - name: source
+      optional: true
+  steps:
+    - name: shell
+      image: ubuntu
+      script: |
+        #!/bin/sh
+        ls -R /workspace/

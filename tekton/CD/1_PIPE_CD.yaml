@@ -1,0 +1,31 @@
+apiVersion: tekton.dev/v1beta1
+kind: Pipeline
+metadata:
+  name: pipeline-cd-api
+spec:
+  description: |
+   Pipeline CD para la creación de despliegues
+  params:
+  - name: repo-url
+    type: string
+    description: The git repo URL to clone from.  
+  - name: revision
+    type: string
+    description: Git branch
+  workspaces:
+  - name: workspace-git
+    description: | 
+      Workspace para clonar el proyecto
+  tasks:
+  - name: clone
+    taskRef:
+      name: git-clone
+    workspaces:
+    - name: output
+      workspace: workspace-git
+    params:
+    - name: url
+      value: $(params.repo-url)
+    - name: revision
+      value: $(params.revision)
+    

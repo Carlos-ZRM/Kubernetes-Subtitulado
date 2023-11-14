@@ -1,0 +1,80 @@
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: dockerconfig-secret
+stringData:
+  config.json: |
+    {
+      "auths": {
+        "quay.io": {
+          "auth": "cmgtZWUtY3JleWVzbWErdXNlcjEwMTpEV1VBTUxQR09UV0oxTEdKV1oyMDcyTkwyQ0NHUDZLTUdZWVFSR05YOEpISzlHTktRWlhCREpLUUpIUTBIUzZV",
+          "email": ""
+        }
+      }
+    }    
+
+---
+apiVersion: tekton.dev/v1beta1
+kind: PipelineRun
+metadata:
+  name: buildah-test-pipeline-run
+spec:
+  pipelineSpec:
+    workspaces:
+      - name: shared-workspace
+      - name: sslcertdir
+        optional: true
+      - name: dockerconfig-ws
+        optional: true
+    tasks:
+      - name: fetch-repository
+        taskRef:
+          name: git-clone
+        workspaces:
+          - name: output
+            workspace: shared-workspace
+        params:
+          - name: url
+            value: https://github.com/Carlos-ZRM/3scale_poc.git
+          - name: deleteExisting
+            value: "true"
+      - name: shell
+        taskRef:
+          name: shell
+        runAfter:
+          - fetch-repository
+        workspaces:
+        - name: source
+          workspace: shared-workspace
+                
+      - name: buildah
+        taskRef:
+          name: buildah
+        runAfter:
+        - shell
+        workspaces:
+        - name: source
+          workspace: shared-workspace
+        - name: dockerconfig
+          workspace: dockerconfig-ws
+        params:
+        - name: IMAGE
+          value: quay.io/rh-ee-creyesma/python-img-api:tekton
+        - name: CONTEXT
+          value: apiPythonImg
+  workspaces:
+    - name: shared-workspace
+      persistentVolumeClaim:
+        claimName: azurepvc
+    #  claimName: workspace-git
+      # volumeClaimTemplate:
+      #   spec:
+      #     accessModes:
+      #       - ReadWriteOnce
+      #     resources:
+      #       requests:
+      #         storage: 100Mi
+    - name: dockerconfig-ws
+      secret:
+        secretName: dockerconfig-secret

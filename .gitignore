@@ -38,6 +38,9 @@
 *.synctex(busy)
 *.synctex.gz
 *.synctex.gz(busy)
+
+
+tekton/CI/pushsecret.yaml
 *.pdfsync
 
 ## Auxiliary and intermediate files from other packages:

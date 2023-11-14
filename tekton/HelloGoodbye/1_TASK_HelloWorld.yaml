@@ -1,0 +1,11 @@
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: hello
+spec:
+  steps:
+    - name: echo
+      image: docker.io/alpine:latest
+      script: |
+        #!/bin/sh
+        echo "Hello World"

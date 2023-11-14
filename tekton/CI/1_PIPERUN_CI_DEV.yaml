@@ -1,0 +1,35 @@
+apiVersion: tekton.dev/v1beta1
+kind: PipelineRun
+metadata:
+  name: pipelinerun-ci-api
+spec:
+  pipelineRef:
+    name: pipeline-ci-api
+  workspaces:
+  - name: dockerconfig-ws
+    secret:
+      secretName: push-secret-rh
+  - name: workspace-git
+    #emptyDir: {}
+    #persistentVolumeClaim:
+    #  claimName: workspace-git
+    volumeClaimTemplate:
+        spec:
+          accessModes:
+            - ReadWriteOnce # access mode may affect how you can use this volume in parallel tasks
+          resources:
+            requests:
+              storage: 1Gi
+          storageClassName: "standard"
+          volumeMode: Filesystem
+    
+  params:
+  - name: repo-url
+    value: https://github.com/Carlos-ZRM/3scale_poc.git
+  - name: revision
+    value: python-api-img
+  - name: img-registry
+    value: quay.io/rh-ee-creyesma/tekton-demo:api-dev
+  - name: img-context
+    value: apiPythonImg
+
